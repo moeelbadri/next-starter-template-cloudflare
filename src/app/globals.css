@@ -956,6 +956,592 @@ header:hover {
   word-break: normal !important; /* Ensure words break only at natural word boundaries */
 }
 
+/* Modern About Us Page Styles */
+
+/* Introduction Section */
+.about-intro-section {
+  padding: 5rem 2rem;
+  background: linear-gradient(135deg, #f8f9fa 0%, #ffffff 100%);
+  position: relative;
+  overflow: hidden;
+}
+
+.about-intro-section::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 1px;
+  background: linear-gradient(90deg, transparent, rgba(0, 0, 0, 0.1), transparent);
+}
+
+.about-intro-container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.intro-card {
+  background: white;
+  border-radius: 20px;
+  padding: 3rem;
+  box-shadow: 0 10px 40px rgba(0, 0, 0, 0.08);
+  animation: fadeInUp 0.8s ease-out;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.intro-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 15px 50px rgba(0, 0, 0, 0.12);
+}
+
+.intro-header {
+  text-align: center;
+  margin-bottom: 2.5rem;
+  padding-bottom: 2rem;
+  border-bottom: 2px solid #e7bd48;
+  position: relative;
+}
+
+.intro-title {
+  font-size: 3rem;
+  font-family: 'Yeseva One', Sans-Serif;
+  color: #0b1f38;
+  margin-bottom: 1rem;
+  position: relative;
+}
+
+.intro-tagline {
+  font-size: 1.4rem;
+  font-style: italic;
+  color: #666;
+  font-weight: 300;
+  letter-spacing: 1px;
+}
+
+.intro-content {
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+.intro-text {
+  font-size: 1.15rem;
+  line-height: 1.8;
+  color: #54595F;
+  margin-bottom: 1.5rem;
+}
+
+.services-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 1.5rem;
+  margin: 2rem 0;
+  padding: 2rem;
+  background: linear-gradient(135deg, #f8f9fa 0%, #ffffff 100%);
+  border-radius: 15px;
+}
+
+.service-item {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  padding: 1rem;
+  background: white;
+  border-radius: 10px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.05);
+  transition: all 0.3s ease;
+  font-size: 1rem;
+  color: #54595F;
+}
+
+.service-item:hover {
+  transform: translateX(10px);
+  box-shadow: 0 6px 20px rgba(231, 189, 72, 0.2);
+  border-left: 4px solid #e7bd48;
+}
+
+.service-icon {
+  font-size: 2rem;
+  flex-shrink: 0;
+}
+
+.mission-statement {
+  background: linear-gradient(135deg, #0b1f38 0%, #0d2a4a 100%);
+  color: white;
+  padding: 2rem;
+  border-radius: 15px;
+  margin-top: 2rem;
+  text-align: center;
+  position: relative;
+  overflow: hidden;
+}
+
+.mission-statement::before {
+  content: "";
+  position: absolute;
+  top: -50%;
+  right: -50%;
+  width: 200%;
+  height: 200%;
+  background: radial-gradient(circle, rgba(231, 189, 72, 0.1) 0%, transparent 70%);
+  animation: pulse 3s ease-in-out infinite;
+}
+
+.mission-statement p {
+  font-size: 1.3rem;
+  font-weight: 500;
+  line-height: 1.6;
+  position: relative;
+  z-index: 1;
+  margin: 0;
+}
+
+/* Section Styles */
+.about-section {
+  padding: 5rem 2rem;
+  background: linear-gradient(135deg, #ffffff 0%, #f8f9fa 100%);
+  position: relative;
+}
+
+.about-section-alt {
+  padding: 5rem 2rem;
+  background: linear-gradient(135deg, #f8f9fa 0%, #ffffff 100%);
+  position: relative;
+}
+
+.about-container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.section-title-modern {
+  font-size: 2.8rem;
+  font-family: 'Yeseva One', Sans-Serif;
+  color: #0b1f38;
+  text-align: center;
+  margin-bottom: 3rem;
+  position: relative;
+  padding-bottom: 1rem;
+}
+
+.section-title-modern::after {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 100px;
+  height: 4px;
+  background: linear-gradient(90deg, #e7bd48, #0b1f38);
+  border-radius: 2px;
+}
+
+/* Overview Cards */
+.overview-cards {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 2rem;
+  margin-top: 3rem;
+}
+
+.overview-card {
+  background: white;
+  padding: 2.5rem;
+  border-radius: 15px;
+  box-shadow: 0 8px 30px rgba(0, 0, 0, 0.08);
+  transition: all 0.3s ease;
+  text-align: center;
+  position: relative;
+  overflow: hidden;
+}
+
+.overview-card::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 4px;
+  background: linear-gradient(90deg, #e7bd48, #0b1f38);
+  transform: scaleX(0);
+  transition: transform 0.3s ease;
+}
+
+.overview-card:hover::before {
+  transform: scaleX(1);
+}
+
+.overview-card:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 15px 40px rgba(0, 0, 0, 0.15);
+}
+
+.card-icon {
+  font-size: 3.5rem;
+  margin-bottom: 1.5rem;
+  display: block;
+}
+
+.overview-card h3 {
+  font-size: 1.5rem;
+  color: #0b1f38;
+  margin-bottom: 1rem;
+  font-family: 'Yeseva One', Sans-Serif;
+}
+
+.overview-card p {
+  font-size: 1rem;
+  line-height: 1.7;
+  color: #54595F;
+}
+
+/* Advantages Grid */
+.advantages-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 2rem;
+  margin-top: 3rem;
+}
+
+.advantage-card {
+  background: white;
+  padding: 2.5rem;
+  border-radius: 15px;
+  box-shadow: 0 8px 30px rgba(0, 0, 0, 0.08);
+  transition: all 0.3s ease;
+  border-left: 4px solid transparent;
+  position: relative;
+  overflow: hidden;
+}
+
+.advantage-card::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(135deg, rgba(231, 189, 72, 0.05) 0%, transparent 100%);
+  opacity: 0;
+  transition: opacity 0.3s ease;
+}
+
+.advantage-card:hover::after {
+  opacity: 1;
+}
+
+.advantage-card:hover {
+  transform: translateY(-8px);
+  box-shadow: 0 15px 40px rgba(0, 0, 0, 0.15);
+  border-left-color: #e7bd48;
+}
+
+.advantage-icon {
+  font-size: 3rem;
+  margin-bottom: 1.5rem;
+  display: block;
+}
+
+.advantage-card h3 {
+  font-size: 1.4rem;
+  color: #0b1f38;
+  margin-bottom: 1rem;
+  font-family: 'Yeseva One', Sans-Serif;
+  position: relative;
+  z-index: 1;
+}
+
+.advantage-card p {
+  font-size: 1rem;
+  line-height: 1.7;
+  color: #54595F;
+  position: relative;
+  z-index: 1;
+}
+
+/* Divisions Container */
+.divisions-container {
+  display: flex;
+  flex-direction: column;
+  gap: 2.5rem;
+  margin-top: 3rem;
+}
+
+.division-card {
+  background: white;
+  padding: 3rem;
+  border-radius: 20px;
+  box-shadow: 0 10px 40px rgba(0, 0, 0, 0.08);
+  transition: all 0.3s ease;
+  position: relative;
+  overflow: hidden;
+}
+
+.division-card::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 5px;
+  height: 100%;
+  background: linear-gradient(180deg, #e7bd48, #0b1f38);
+  transform: scaleY(0);
+  transition: transform 0.3s ease;
+}
+
+.division-card:hover::before {
+  transform: scaleY(1);
+}
+
+.division-card:hover {
+  transform: translateX(10px);
+  box-shadow: 0 15px 50px rgba(0, 0, 0, 0.12);
+}
+
+.division-number {
+  font-size: 4rem;
+  font-family: 'Yeseva One', Sans-Serif;
+  color: #e7bd48;
+  font-weight: bold;
+  margin-bottom: 1rem;
+  opacity: 0.3;
+  line-height: 1;
+}
+
+.division-card h3 {
+  font-size: 1.8rem;
+  color: #0b1f38;
+  margin-bottom: 1rem;
+  font-family: 'Yeseva One', Sans-Serif;
+}
+
+.division-subtitle {
+  font-size: 1.1rem;
+  color: #666;
+  margin-bottom: 1.5rem;
+  font-style: italic;
+}
+
+.division-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.division-list li {
+  padding: 0.8rem 0;
+  padding-left: 2rem;
+  position: relative;
+  font-size: 1rem;
+  line-height: 1.7;
+  color: #54595F;
+  border-bottom: 1px solid #f0f0f0;
+}
+
+.division-list li:last-child {
+  border-bottom: none;
+}
+
+.division-list li::before {
+  content: "✓";
+  position: absolute;
+  left: 0;
+  color: #e7bd48;
+  font-weight: bold;
+  font-size: 1.2rem;
+}
+
+/* Partnership Card */
+.partnership-card {
+  background: white;
+  padding: 3rem;
+  border-radius: 20px;
+  box-shadow: 0 10px 40px rgba(0, 0, 0, 0.08);
+  text-align: center;
+  max-width: 900px;
+  margin: 0 auto;
+  animation: fadeInUp 0.8s ease-out;
+}
+
+.partnership-text {
+  font-size: 1.2rem;
+  line-height: 1.8;
+  color: #54595F;
+  margin-top: 1.5rem;
+}
+
+/* Execution Plan */
+.execution-intro {
+  text-align: center;
+  font-size: 1.2rem;
+  color: #54595F;
+  margin-bottom: 3rem;
+  max-width: 800px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.execution-block {
+  background: white;
+  padding: 3rem;
+  border-radius: 20px;
+  box-shadow: 0 10px 40px rgba(0, 0, 0, 0.08);
+  margin-top: 3rem;
+  max-width: 1000px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.execution-step {
+  padding: 2rem 0;
+  transition: all 0.3s ease;
+}
+
+.execution-step:last-child {
+  padding-bottom: 0;
+}
+
+.execution-step:hover {
+  padding-left: 1rem;
+}
+
+.execution-step-header {
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+  margin-bottom: 1.5rem;
+}
+
+.execution-number {
+  width: 60px;
+  height: 60px;
+  background: linear-gradient(135deg, #e7bd48, #d4a842);
+  color: white;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 2rem;
+  font-weight: bold;
+  font-family: 'Yeseva One', Sans-Serif;
+  box-shadow: 0 4px 15px rgba(231, 189, 72, 0.3);
+  flex-shrink: 0;
+}
+
+.execution-step h3 {
+  font-size: 1.5rem;
+  color: #0b1f38;
+  margin: 0;
+  font-family: 'Yeseva One', Sans-Serif;
+  flex: 1;
+}
+
+.execution-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.execution-list li {
+  padding: 0.8rem 0;
+  padding-left: 1.8rem;
+  position: relative;
+  font-size: 1rem;
+  line-height: 1.7;
+  color: #54595F;
+}
+
+.execution-list li::before {
+  content: "→";
+  position: absolute;
+  left: 0;
+  color: #e7bd48;
+  font-weight: bold;
+  font-size: 1.2rem;
+}
+
+/* Animations */
+@keyframes fadeInUp {
+  from {
+    opacity: 0;
+    transform: translateY(30px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes pulse {
+  0%, 100% {
+    opacity: 0.3;
+  }
+  50% {
+    opacity: 0.6;
+  }
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .about-intro-section,
+  .about-section,
+  .about-section-alt {
+    padding: 3rem 1rem;
+  }
+
+  .intro-card {
+    padding: 2rem 1.5rem;
+  }
+
+  .intro-title {
+    font-size: 2rem;
+  }
+
+  .intro-tagline {
+    font-size: 1.1rem;
+  }
+
+  .section-title-modern {
+    font-size: 2rem;
+  }
+
+  .services-grid {
+    grid-template-columns: 1fr;
+    padding: 1.5rem;
+  }
+
+  .overview-cards,
+  .advantages-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .execution-block {
+    padding: 2rem 1.5rem;
+  }
+
+  .execution-step-header {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 1rem;
+  }
+
+  .execution-step h3 {
+    font-size: 1.3rem;
+  }
+
+  .division-card {
+    padding: 2rem 1.5rem;
+  }
+
+  .division-number {
+    font-size: 3rem;
+  }
+
+  .mission-statement p {
+    font-size: 1.1rem;
+  }
+}
+
 
 
 
