@@ -11,12 +11,19 @@ export default function Home() {
           <Link href="/vision">{" > "}Vision</Link>
         </div>
       </section>
-      <section className="second-section">
-        <div className="second-content">
-          <h2>OUR VISION</h2>
-          <p style={{ maxWidth: '900px', margin: '2rem auto', lineHeight: '1.8' }}>
-            To become a trusted reference partner in heavy equipment and industrial component supply across the Middle East, Africa, and beyond—the first name that contractors, fleet operators, industrial plants, rail projects, and aviation operators think of when they need reliable parts, engines, and power solutions that keep their operations moving.
-          </p>
+      <section className="mission-vision-section">
+        <div className="mission-vision-container">
+          <div className="mission-vision-card vision-card">
+            <div className="mission-vision-header">
+              <h2 className="mission-vision-title">Our Vision</h2>
+              <div className="mission-vision-accent"></div>
+            </div>
+            <div className="vision-content">
+              <p className="vision-text">
+                To become a trusted reference partner in heavy equipment and industrial component supply across the Middle East, Africa, and beyond—the first name that contractors, fleet operators, industrial plants, rail projects, and aviation operators think of when they need reliable parts, engines, and power solutions that keep their operations moving.
+              </p>
+            </div>
+          </div>
         </div>
       </section>
     </div>

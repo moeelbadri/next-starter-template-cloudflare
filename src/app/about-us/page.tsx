@@ -29,19 +29,15 @@ export default function Home() {
               </p>
               <div className="services-grid">
                 <div className="service-item">
-                  <span className="service-icon">⚙️</span>
                   <span>Specialized spare parts and accessories</span>
                 </div>
                 <div className="service-item">
-                  <span className="service-icon">🔧</span>
                   <span>Diesel engines for vehicles and machinery</span>
                 </div>
                 <div className="service-item">
-                  <span className="service-icon">⚡</span>
                   <span>Diesel generators and power units</span>
                 </div>
                 <div className="service-item">
-                  <span className="service-icon">🚂</span>
                   <span>Railway, industrial, and civil-use aviation components</span>
                 </div>
               </div>
@@ -62,17 +58,14 @@ export default function Home() {
           <h2 className="section-title-modern">Company Overview</h2>
           <div className="overview-cards">
             <div className="overview-card">
-              <div className="card-icon">🌍</div>
               <h3>Global Reach</h3>
               <p>Black Apex Global (BAG) is a multinational sourcing and supply company focused on heavy equipment ecosystems and industrial components. We support construction fleets, industrial operators, railway projects, and civil aviation through the supply of spare parts, accessories, diesel engines, and diesel generators.</p>
             </div>
             <div className="overview-card">
-              <div className="card-icon">🤝</div>
               <h3>Trusted Partnerships</h3>
               <p>Working with vetted manufacturers and partners across key regions, we manage the full journey from technical specification and sourcing to quality control and delivery, giving clients a single, reliable point of contact for complex, multi-category requirements.</p>
             </div>
             <div className="overview-card">
-              <div className="card-icon">📦</div>
               <h3>International Operations</h3>
               <p>We operate through an international structure serving the Middle East, Africa, Europe, and Asia, coordinating multi-origin shipments and project-based deliveries to match our clients' timelines and standards.</p>
             </div>
@@ -86,27 +79,22 @@ export default function Home() {
           <h2 className="section-title-modern">Competitive Advantages</h2>
           <div className="advantages-grid">
             <div className="advantage-card">
-              <div className="advantage-icon">🏗️</div>
               <h3>Heavy Equipment & Powertrain Focus</h3>
               <p>Specialization in supporting construction trucks, off-highway machinery, and industrial vehicles with critical parts, accessories, engines, and power solutions.</p>
             </div>
             <div className="advantage-card">
-              <div className="advantage-icon">📋</div>
               <h3>Specification-Driven Sourcing</h3>
               <p>All supplies are matched to defined technical standards, operating conditions, and project requirements to ensure compatibility and reliability.</p>
             </div>
             <div className="advantage-card">
-              <div className="advantage-icon">🌐</div>
               <h3>Multi-Sector Coverage</h3>
               <p>Integrated offering across heavy equipment support, railway systems, industrial manufacturing & aluminum systems, and civil-use aviation parts.</p>
             </div>
             <div className="advantage-card">
-              <div className="advantage-icon">✅</div>
               <h3>Vetted Global Network</h3>
               <p>Access to audited manufacturers and logistics partners, enabling competitive pricing, consistent quality, and flexible lead times.</p>
             </div>
             <div className="advantage-card">
-              <div className="advantage-icon">🔄</div>
               <h3>End-to-End Supply Support</h3>
               <p>From RFQ and technical matching to inspection, packing, and shipment coordination, with a strong focus on documentation and compliance.</p>
             </div>

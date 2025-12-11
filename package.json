@@ -1,9 +1,9 @@
 {
-  "name": "rafa",
-  "version": "0.1.0",
+  "name": "Black Apex Global",
+  "version": "1.0.0",
   "private": true,
   "cloudflare": {
-		"label": "Next.js Framework Starter",
+		"label": "Black Apex Global",
 		"products": [
 			"Workers"
 		],

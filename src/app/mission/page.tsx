@@ -11,15 +11,32 @@ export default function Home() {
           <Link href="/mission">{" > "}Mission</Link>
         </div>
       </section>
-      <section className="second-section">
-        <div className="second-content">
-          <h2>OUR MISSION</h2>
-          <ul style={{ textAlign: 'left', maxWidth: '900px', margin: '2rem auto', listStyle: 'disc', paddingLeft: '2rem', lineHeight: '1.8' }}>
-            <li>Support critical operations in construction, industry, rail, and aviation through high-quality parts, engines, and power solutions.</li>
-            <li>Simplify complex sourcing by acting as a single, technical and commercial point of contact between clients and manufacturers.</li>
-            <li>Reduce downtime and lifecycle cost for our clients by supplying the right components, at the right specification, at the right time.</li>
-            <li>Operate transparently and professionally, with clear communication, proper documentation, and a long-term partnership mindset.</li>
-          </ul>
+      <section className="mission-vision-section">
+        <div className="mission-vision-container">
+          <div className="mission-vision-card">
+            <div className="mission-vision-header">
+              <h2 className="mission-vision-title">Our Mission</h2>
+              <div className="mission-vision-accent"></div>
+            </div>
+            <div className="mission-vision-content">
+              <div className="mission-item">
+                <div className="mission-number">01</div>
+                <p>Support critical operations in construction, industry, rail, and aviation through high-quality parts, engines, and power solutions.</p>
+              </div>
+              <div className="mission-item">
+                <div className="mission-number">02</div>
+                <p>Simplify complex sourcing by acting as a single, technical and commercial point of contact between clients and manufacturers.</p>
+              </div>
+              <div className="mission-item">
+                <div className="mission-number">03</div>
+                <p>Reduce downtime and lifecycle cost for our clients by supplying the right components, at the right specification, at the right time.</p>
+              </div>
+              <div className="mission-item">
+                <div className="mission-number">04</div>
+                <p>Operate transparently and professionally, with clear communication, proper documentation, and a long-term partnership mindset.</p>
+              </div>
+            </div>
+          </div>
         </div>
       </section>
     </div>

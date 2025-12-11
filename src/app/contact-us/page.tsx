@@ -16,7 +16,7 @@ export default function Home() {
         <div className="contact-card">
           <div className="icon"><i className="fas fa-map-marker-alt"></i></div>
           <h3>Locations</h3>
-          <p>Hon Kong, Cairo, Dubai</p>
+          <p>Hong Kong</p>
         </div>
         <div className="contact-card">
           <div className="icon"><i className="fas fa-phone"></i></div>
