@@ -46,7 +46,11 @@
     background-image: url("/IMG_0427-removebg-preview2.png");
   }
 }
-
+@media (min-width: 1600px) {
+  .letterhead-header {
+    background-size: cover !important;        /* or 'cover' if you prefer */
+  }
+}
 
 html {
   scroll-behavior: smooth;
