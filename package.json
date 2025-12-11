@@ -10,6 +10,7 @@
   },
   "dependencies": {
     "@logward-dev/sdk-node": "^0.1.0",
+    "@opennextjs/cloudflare": "^1.14.4",
     "eslint-config-next": "^16.0.7",
     "next": "^16.0.7",
     "react": "^19.2.1",
