@@ -10,7 +10,7 @@ export default function Footer() {
         <div className="footer-section">
           <h3 className="footer-title">Black Apex Global</h3>
           <p className="footer-text">
-            <i className="fas fa-map-marker-alt"></i> Hon Kong, Cairo, Dubai
+            <i className="fas fa-map-marker-alt"></i> Hong Kong
           </p>
         </div>
 
