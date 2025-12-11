@@ -116,42 +116,6 @@ export default function Home() {
           </form>
         </div>
       </section>
-
-      {/* <section className="mission-section">
-        <div className="mission-container">
-          <h1>Our Mission</h1>
-          <p>
-            Empowering Gazan communities with dignity and compassion, RAFA
-            delivers urgent aid—from food and water to shelter and
-            clothing—while investing in education and community development. Our
-            support rebuilds hope and transforms lives amid the challenges of
-            poverty, displacement, and conflict.
-          </p>
-          <button className="learn-more-button">
-            <Link href="/mission">Learn More</Link>
-          </button>
-        </div>
-      </section> */}
-      {/* <section className="about-us">
-        <img
-          src="/cdn-cgi/image/format=auto,width=400,height=600,quality=75/IMG-20250412-WA0017.jpg"
-          alt="Purpose"
-          width={400}
-          height={600}
-          className="about-us-image"
-        />
-        <div className="about-us-content right">
-          <h2>Help Feed the Children and Families of Gaza</h2>
-          <p>
-            In the heart of Gaza, our mission is to help feed the children and
-            families enduring the hardships of conflict. Our food aid programs
-            deliver nutritious meals that bring hope and strength to those
-            facing uncertainty daily. Every parcel of food supports a healthier
-            tomorrow, fosters resilience, and helps rebuild communities in
-            crisis.
-          </p>
-        </div>
-      </section> */}
     </div>
   );
 }

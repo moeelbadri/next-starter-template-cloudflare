@@ -19,8 +19,8 @@ const karla = Karla({
 });
 
 export const metadata: Metadata = {
-  title: "Rafa",
-  description: "A humanitarian organization dedicated to providing emergency relief and essential resources to those affected by crisis.",
+  title: "Black Apex Global",
+  description: "Black Apex Global is a multinational sourcing and supply company focused on heavy equipment ecosystems and industrial components, not on selling complete vehicles.",
 };
 
 export default function RootLayout({
@@ -33,7 +33,7 @@ export default function RootLayout({
       <head>
         <meta charSet="UTF-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <link rel="icon" type="image/x-icon" href="/Rafa-favicon.ico" />
+        <link rel="icon" type="image/x-icon" href="/favicon.ico" />
         <link rel="preconnect" href="https://fonts.googleapis.com" />
         <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin="anonymous"/>
         <link
