@@ -15,9 +15,9 @@ export default function Header() {
         {/* Top Header */}
         <div className="top-header letterhead-header">
           <div className="left-section">
-              {/* <Link href="/" className=""> */}
+              <Link href="/" className="logo-link">
               <img src="/logo-bg.png" alt="Logo" className="logo" />
-              {/* </Link> */}
+              </Link>
           </div>
           {/* Replace "Logo" with an image */}
           {/* Center: Logo */}
