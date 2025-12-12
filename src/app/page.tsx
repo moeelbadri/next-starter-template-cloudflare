@@ -44,10 +44,11 @@ export default function Home() {
             </p>
           </div>
           <Image
-            src="/image.webp"
+            src="/image.png"
             alt="Purpose"
             width={700}
             height={600}
+            quality={75}
             loading="eager"
             className="about-us-image"
           />
