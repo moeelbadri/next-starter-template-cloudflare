@@ -44,7 +44,7 @@ export default function Home() {
             </p>
           </div>
           <Image
-            src="/Gemini_Generated_Image_fqjy5dfqjy5dfqjy.png"
+            src="/image.webp"
             alt="Purpose"
             width={700}
             height={600}
