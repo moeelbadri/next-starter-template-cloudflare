@@ -2092,6 +2092,18 @@ header:hover {
   transform: scale(1.2) rotate(5deg);
 }
 
+/* Contact card links - clearly clickable */
+.contact-card a {
+  color: white;
+  text-decoration: none;
+  cursor: pointer;
+  transition: color 0.2s ease, text-decoration 0.2s ease;
+}
+.contact-card a:hover {
+  color: #e7bd48;
+  text-decoration: underline;
+}
+
 .contact-card .icon {
   font-size: 2rem;
   margin-bottom: 0.5rem;
