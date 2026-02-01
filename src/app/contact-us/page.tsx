@@ -38,6 +38,21 @@ export default function Home() {
           <h3>Email</h3>
           <p><a href="mailto:info@Blackapexglobal.com" style={{ color: 'white', textDecoration: 'none' }}>info@Blackapexglobal.com</a></p>
         </div>
+        <div className="contact-card">
+          <div className="icon"><i className="fab fa-instagram"></i></div>
+          <h3>Instagram</h3>
+          <p><a href="https://www.instagram.com/blackapexglobal" target="_blank" rel="noopener noreferrer" style={{ color: 'white', textDecoration: 'none' }}>@blackapexglobal</a></p>
+        </div>
+        <div className="contact-card">
+          <div className="icon"><i className="fab fa-linkedin"></i></div>
+          <h3>LinkedIn</h3>
+          <p><a href="https://www.linkedin.com/company/black-apex-global/" target="_blank" rel="noopener noreferrer" style={{ color: 'white', textDecoration: 'none' }}>Black Apex Global</a></p>
+        </div>
+        <div className="contact-card">
+          <div className="icon"><i className="fab fa-facebook"></i></div>
+          <h3>Facebook</h3>
+          <p><a href="https://www.facebook.com/share/19GwUecv2b/" target="_blank" rel="noopener noreferrer" style={{ color: 'white', textDecoration: 'none' }}>Black Apex Global</a></p>
+        </div>
       </div>
 
       <section className="modern-form-section">

@@ -35,6 +35,20 @@ export default function Footer() {
             <i className="fas fa-at"></i> <a className="links" href="mailto:info@Blackapexglobal.com">info@Blackapexglobal.com</a>
           </p>
         </div>
+
+        {/* Social Media Section */}
+        <div className="footer-section">
+          <h4 className="footer-title">Follow Us</h4>
+          <p className="footer-text">
+            <i className="fab fa-instagram"></i> <a className="links" href="https://www.instagram.com/blackapexglobal" target="_blank" rel="noopener noreferrer">Instagram</a>
+          </p>
+          <p className="footer-text">
+            <i className="fab fa-linkedin"></i> <a className="links" href="https://www.linkedin.com/company/black-apex-global/" target="_blank" rel="noopener noreferrer">LinkedIn</a>
+          </p>
+          <p className="footer-text">
+            <i className="fab fa-facebook"></i> <a className="links" href="https://www.facebook.com/share/19GwUecv2b/" target="_blank" rel="noopener noreferrer">Facebook</a>
+          </p>
+        </div>
       </div>
 
       <hr className="footer-divider" />
